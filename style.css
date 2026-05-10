@@ -1,0 +1,16 @@
+.body{
+    line-height: 1.1;
+    background-color: rgb(126, 62, 62);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.main{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
