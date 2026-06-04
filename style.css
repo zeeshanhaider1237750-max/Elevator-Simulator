@@ -45,6 +45,8 @@ h1{
     align-items: center;
     display: flex;
     margin: 1vh;
+    cursor: pointer;
+    user-select: none;
 }
 .flr{
     background-color: rgba(151, 64, 64, 0.897);
@@ -84,6 +86,7 @@ h1{
     justify-content: center;
     align-items: center; 
     border-radius: 1vh;
+    transition: bottom 0.5s ease-in-out;
 }
 .light{
     background-color:rgb(253, 253, 0);
