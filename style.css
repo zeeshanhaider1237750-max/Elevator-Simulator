@@ -9,8 +9,60 @@
     margin: 0;
     flex-direction: column;
 }
-.main{
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+h1{
+    font-size: 5vh;
+}
+.sim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    border-radius: 1.5vh;
+    border: 0.4vh solid black;
+    width: 75vh;
+    height: 75vh;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 4vh;
+}
+.block-1, .block-2{
+    margin: 1vh;
+}
+.btn{
+  background-color: rgb(115, 150, 247);
+    border-radius: 1vh;
+    width:5vh ;
+    height: 5vh;
+    border: 0.2vh solid black;
+    font-size: 3vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1vh;
+}
+.flr{
+    background-color: rgba(151, 64, 64, 0.897);
+    width: 32vh;
+    height:4vh ;
+    margin: 1.3vh auto;
+    display: flex;
+}
+#fl-1, #fl-2, #fl-3, #fl-4, #fl-5, #fl-6, #fl-7, #fl-8, #fl-9, #fl-10{
+    border: 0.2vh solid black;
+    margin: 0.278vh auto;
+    display: flex;
+}
+.elevator{
+    background-color:aquamarine
+}
+.elev{
+    background-color:blue;
+    width: 30vh;
+    height: 4vh;
 }
